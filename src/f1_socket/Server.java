@@ -1,4 +1,4 @@
-package version1;
+package f1_socket;
 
 import java.io.BufferedReader;
 import java.io.IOException;

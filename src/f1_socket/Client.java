@@ -1,4 +1,4 @@
-package version1;
+package f1_socket;
 
 import java.io.*;
 import java.net.Inet4Address;
@@ -39,7 +39,7 @@ public class Client {
         OutputStream outputStream = client.getOutputStream();
         PrintStream socketPrintStream = new PrintStream(outputStream);
 
-        //得到Socker输入流，并转换为输入流
+        //得到Socket输入流，并转换为输入流
         InputStream inputStream = client.getInputStream();
         BufferedReader socketBufferReader = new BufferedReader(new InputStreamReader(inputStream));
 
